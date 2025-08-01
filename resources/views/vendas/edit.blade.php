@@ -215,7 +215,6 @@
                 </tr>`;
         });
 
-        // Ajuste: campo total deve ser numérico para o backend
         totalInput.value = total.toFixed(2);
         produtosJsonInput.value = JSON.stringify(produtosSelecionados);
     }
